@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <script>
+        var languages = new Array();
+        {% for language in site.languages %}
+        languages.push("{{language}}");
+        {% endfor %}
+    </script>
+    {% include head.html %}
+</head>
+<body>
+    {% include navigation.html %}
+
+    <div id="content">
+        {% if page.url == "/" %}<img src="{{site.baseurl_root}}/assets/images/banner.png" id="banner" />{% endif %}
+
+        <div class="container">
+            {{ content }}
+        </div>
+    </div>
+
+    {% include footer.html %}
+</body>
+</html>
