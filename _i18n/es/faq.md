@@ -1,13 +1,13 @@
 # Preguntas frecuentes
 
-*   [Configuración de la cuenta](#configuración-cuenta)
+*   [Configuración de la cuenta](#configuracion-de-la-cuenta)
 *   [Comenzar a chatear](#comenzar-chat)
-*   [Configuración del chat](#configuración-chat)
+*   [Configuración del chat](#configuracion-chat)
 *   [Pasarela a otros sistemas de chat](#pasarela-a-otros-sistemas-de-chat)
-*   [Gestión de errores](#gestión-errores)
+*   [Gestión de errores](#gestion-errores)
 *   [Acerca de FluffyChat](#acerca-de-fluffychat)
 
-## Configuración de la cuenta
+## Configuración de la cuenta <a id="configuracion-de-la-cuenta"></a>
 
 #### ¿Cómo puedo restablecer mi contraseña?
 
@@ -45,7 +45,7 @@ Matrix es una red federada de «homeservers» (servidores de datos). ¿Qué sign
 Los usuarios en Matrix son identificados internamente vía un «ID» de Matrix. Sin embargo, identificadores actuales de terceras partes («3PID») como las direcciones de correo electrónico o los números de teléfono deberían usarse públicamente para identificar a los usuarios de Matrix, al menos para las invitaciones. Una «identidad» de Matrix describe tanto el «ID» del usuario como cualquier otros «IDs» de terceras partes enlazadas a sus cuentas.  
 Los usuarios de Matrix pueden enlazar «IDs» de terceras partes («3PIDs») a sus «ID» de usuario. Enlazando «3PIDs» se crea un mapeo desde un «3PID» a un «ID» de usuario. Este mapeo puede luego ser usado por los usuarios de Matrix para descubrir los «MXIDs» de sus contactos. Para asegurar que el mapeo desde el «3PID» a un «ID» de usuario es genuino, la intención es que haya un grupo globalmente federado de servidores de identidad («IS») de confianza para usarlo para verificar el «3PID» y continuar y replicar los mapeos. No se necesita el uso de un «IS» para que una aplicación cliente sea parte del ecosistema de Matrix. Sin embargo, sin un cliente no será capaz de buscar «IDs» de usuario usando «3PIDs».
 
-## Comenzar a chatear
+## Comenzar a chatear <a id="comenzar-chat"></a>
 
 #### ¿Cómo puedo comenzar un nuevo chat?
 
@@ -78,7 +78,7 @@ Una comunidad pública tiene una o más direcciones públicas llamadas «alias»
 *   «/roar» (Enviará «msgtype: m.fluffychat.roar») El texto del mensaje será muy grande, en negrita y mayúsculas
 *   «/shrug» Coloca «¯\\(ツ)/¯» al inicio del mensaje
 
-## Configuración del chat
+## Configuración del chat <a id="configuracion-chat"></a>
 
 #### How can I kick or ban a user from a chat?
 
@@ -130,7 +130,7 @@ Chat aliases are public chat addresses which can be used to join a chat. You nee
 2.  Search for gifs by typing: '!giphy KEYWORD'
 3.  Add an animated sticker by clicking on the sticker and add it to your local sticker collection by clicking on the "+" on the rop right.
 
-## Bridge to other chat systems
+## Bridge to other chat systems <a id="pasarela-a-otros-sistemas-de-chat"></a>
 
 #### ¿Qué es Matrix?
 
@@ -152,7 +152,7 @@ Replace `#chatname` with the node you want to join and you are in.
 
 Look at the tutorial on [wayneoutthere.com](https://wayneoutthere.com/how-to-bridge-matrix-telegram/).
 
-## Error handling
+## Gestión de errores <a id="gestion-errores"></a>
 
 #### Why don't I receive push notifications?
 
@@ -170,7 +170,7 @@ Sorry! confused On port 8448 the most homeservers use a different ssl certificat
 
 El mismo problema... Le recomiendo que use un certificado de Let's Encrypt.
 
-## Acerca de FluffyChat
+## Acerca de FluffyChat <a id="acerca-de-fluffychat"></a>
 
 #### ¿Cómo se financia FluffyChat?
 
