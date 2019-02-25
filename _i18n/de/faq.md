@@ -1,11 +1,11 @@
 # Häufig gestellte Fragen
 
 *   [Kontoeinstellungen](#kontoeinstellungen)
-*   [Starte eine Unterhaltung](#starte-eine-Unterhaltung)
+*   [Starte eine Unterhaltung](#starte-eine-unterhaltung)
 *   [Chateinstellungen](#chateinstellungen)
-*   [Mit anderen Chat-Systemen verknüpfen](#mit-anderen-Chat-Systemen-verknüpfen)
+*   [Mit anderen Chat-Systemen verbinden](#mit-anderen-chat-systemen-verbinden)
 *   [Fehlerbehandlung](#fehlerbehandlung)
-*   [About FluffyChat](#about-fluffychat)
+*   [Wer steckt dahinter](#wer-steckt-dahinter)
 
 ## Kontoeinstellungen
 
@@ -130,7 +130,7 @@ Chat aliases are public chat addresses which can be used to join a chat. You nee
 2.  Search for gifs by typing: '!giphy KEYWORD'
 3.  Add an animated sticker by clicking on the sticker and add it to your local sticker collection by clicking on the "+" on the rop right.
 
-## Mit anderen Chat-Systemen verknüpfen
+## Mit anderen Chat-Systemen verbinden
 
 #### What is Matrix?
 
@@ -170,7 +170,7 @@ Sorry! confused On port 8448 the most homeservers use a different ssl certificat
 
 The same problem... I recommend you to use a letsencrypt certificate.
 
-## About FluffyChat
+## Wer steckt dahinter
 
 #### How is FluffyChat founded?
 
