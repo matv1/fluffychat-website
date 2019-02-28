@@ -1,27 +1,27 @@
-# Frequently Asked Questions
+# Häufig gestellte Fragen
 
-*   [Account settings](#1)
-*   [Start chatting](#2)
-*   [Chat settings](#3)
-*   [Bridge to other chat systems](#4)
-*   [Error handling](#5)
-*   [About FluffyChat](#6)
+*   [Konto Einstellungen](#1)
+*   [Chat starten](#2)
+*   [Einstellungen im Chat](#3)
+*   [Verbindung zu anderen Chatsystemen](#4)
+*   [Fehlerbehandlung](#5)
+*   [Über FluffyChat](#6)
 
-## Account settings<a id="1"/>
+## Konto Einstellungen <a id="1"/>
 
-#### How can I reset my password?<a id="1-1"/>
+#### Wie kann ich mein Passwort zurücksetzen?<a id="1-1"/>
 
-You must connect an email address with your account. This can be done in the account settings. If you don't have connected an email address, you have to contact the support of your homeserver. ([What is a homeserver?](#1-5))  
-[Click here to reset your password](https://www.ubports.chat/#/forgot_password).
+Du musst dein Konto mit deiner E-Mail-Adresse verbinden. Das machst du in den Einstellungen. Wenn du keine E-Mail-Adresse hast, musst du dich an den Support deines Homeservers wenden. ([Was ist der Homeserver?](#1-5))  
+[Klicke hier um dein Passwort zurück zu setzten](https://www.ubports.chat/#/forgot_password).
 
-#### How can I create a new account?<a id="1-2"/>
+#### Wie mache ich ein neues Konto?<a id="1-2"/>
 
-1.  If you are already logged in in FluffyChat then go to the settings and tab on "Logout" at the bottom.
-2.  Choose a new username and make sure that "Create an account" is checked.
-3.  If you want to create an account on another homeserver than the default (ubports.chat), go to the top left menu and change the homeserver. ([What is a homeserver?](#1-5))
-4.  Go to "Log In" and choose a new password.
+1.  Wenn du bereits in FluffyChat angemeldet bist, gehe zu den Einstellungen und melde dich ab.
+2.  Wähle einen neuen Benutzernamen und klicke auf "Neues Konto erstellen"
+3.  Wenn du ein Konto auf einem anderen Homeserver als dem Standardkonto (ubports.chat) erstellen möchtest, wechsel in das Menü oben links und ändere den Homeserver. ([Was ist der Homeserver?](#1-5))
+4.  Dann gehe auf "Einloggen" und erstelle ein neues Passwort.
 
-#### How can I log in my old account?<a id="1-3"/>
+#### Wie kann ich mich in mein altes Konto einloggen?<a id="1-3"/>
 
 1.  If you are already logged in in FluffyChat then go to the settings and tab on "Logout" at the bottom.
 2.  Enter the username or your Matrix ID of your old account. ([What is a Matrix ID?](#1-4)) If you don't remember your username or Matrix ID but you remember the phone number connected with your account, then you can just enter any username and enter the correct phone number in the next step. The username will be automatically found.

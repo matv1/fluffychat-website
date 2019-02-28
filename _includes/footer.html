@@ -9,7 +9,17 @@
 
 <div class="spacer"> </div>
 
+<div class="container">
+
 <div id="footer">
+    Languages available: (
+    {% for language in site.languages %}
+    {% if language != "template" %}
+    <a href="../{{language}}">{{language}}</a>
+    {% endif %}
+    {% endfor %}
+    )
+    <br/>
     <a href="https://github.com/ChristianPauly/fluffychat/blob/master/LICENSE" target="new">{% translate index.license %}</a> -
     <a href="https://github.com/ChristianPauly/fluffychat/blob/master/CHANGELOG.md" target="new">{% translate index.changelog %}</a> -
     <a href="https://hosted.weblate.org/projects/fluffychat/" target="new">{% translate index.translations %}</a> -
@@ -18,4 +28,6 @@
     <a href="https://github.com/ChristianPauly/fluffychat/graphs/contributors" target="new">{% translate index.contributors %}</a> -
     <a href="https://github.com/ChristianPauly/fluffychat#special-thanks-to" target="new">{% translate index.specialthanksto %}</a> -
     <a href="https://ubports.com" target="new">{% translate index.ubports %}</a>
+</div>
+
 </div>
