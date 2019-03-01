@@ -34,7 +34,7 @@ Debe conectar una dirección de correo electrónico a su cuenta. Se puede hacer 
 #### ¿Qué es una identificación («ID») de Matrix?<a id="1-4"/>
 
 Su «ID» de Matrix es su identificador único en la red de Matrix. Es una combinación de su nombre de usuario y de su «homeserver» (servidor de datos). ([¿Qué es un «homeserver» (servidor de datos)?](#Quéesunhomeserver))  
-El formato de una identificación («ID») de Matrix es sencillo: @nombredeusuario:homeserver. Por ejemplo, si su nombre de usuario es «alicia» y su «homeserver» (servidor de datos) es «homeserver.abc», entonces su («ID») de Matrix es: @alicia:homeserver.abc
+El formato de una identificación («ID») de Matrix es sencillo: <code>@nombredeusuario:homeserver</code>. Por ejemplo, si su nombre de usuario es «alicia» y su «homeserver» (servidor de datos) es «homeserver.abc», entonces su («ID») de Matrix es: <code>@alicia:homeserver.abc</code>
 
 #### ¿Qué es un «homeserver» (servidor de datos)?<a id="1-5"/>
 
@@ -73,10 +73,10 @@ Una comunidad pública tiene una o más direcciones públicas llamadas «alias»
 
 #### ¿Qué «/órdenes» están disponibles?<a id="2.5"/>
 
-*   «/me» (Enviará «msgtype: m.emote») Muestra una acción.
-*   «/whisper» (Enviará «msgtype: m.fluffychat.whisper») El texto del mensaje será muy pequeño
-*   «/roar» (Enviará «msgtype: m.fluffychat.roar») El texto del mensaje será muy grande, en negrita y mayúsculas
-*   «/shrug» Coloca «¯\\(ツ)/¯» al inicio del mensaje
+*   <code>/me</code> (Enviará «msgtype: m.emote») Muestra una acción.
+*   <code>/whisper</code> (Enviará «msgtype: m.fluffychat.whisper») El texto del mensaje será muy pequeño
+*   <code>/roar</code> (Enviará «msgtype: m.fluffychat.roar») El texto del mensaje será muy grande, en negrita y mayúsculas
+*   <code>/shrug</code> Coloca «¯\\(ツ)/¯» al inicio del mensaje
 
 ## Configuración del chat<a id="3"/>
 
@@ -139,7 +139,7 @@ Matrix es un estándar abierto, interoperable y descentralizado para la comunica
 #### ¿Cómo puedo unirme a un chat multi-usuario de XMPP?<a id="4.2"/>
 
 La manera más sencilla actual es usar la pasarela existente en matrix.org.  
-Cada chat multi-usuario de XMPP tiene un identificador de Jabber («JID») con el formato: `chatname@chat.server.abc`  
+Cada chat multi-usuario de XMPP tiene un identificador de Jabber («JID») con el formato: <code>chatname@chat.server.abc</code>  
 El nombre de chat es la parte **local** y «chat.server.abc» es la parte del **servidor**. Puede unirse a este chat entrando en la sala pública de Matrix: `#_xmpp_server_local:matrix.org` ([¿Cómo puedo unirme a un chat público?](#Cómounirmeaunchatpúblico))  
 Para el ejemplo dado sería: `#_xmpp_chat.server.abc_chatname:matrix.org`
 

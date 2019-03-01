@@ -33,7 +33,7 @@ You must connect an email address with your account. This can be done in the acc
 #### What is a Matrix ID?<a id="1-4"/>
 
 Your Matrix ID is your unique identifier in the Matrix network. It is a combination of your username and your homeserver. ([What is a homeserver?](#1-5))  
-The format of a Matrix ID is simple: @username:homeserver. For example, if your username is "alice" and your homeserver is "homeserver.abc", then your Matrix ID is: @alice:homeserver.abc
+The format of a Matrix ID is simple: <code>@username:homeserver</code>. For example, if your username is "alice" and your homeserver is "homeserver.abc", then your Matrix ID is: <code>@alice:homeserver.abc</code>
 
 #### What is a homeserver?<a id="1-5"/>
 
@@ -71,10 +71,10 @@ A public chat has one or more public addresses called aliases. They always start
 
 #### Which /commands are available?<a id="2.5"/>
 
-*   `/me` (Will send msgtype: m.emote) Displays an action.
-*   `/whisper` (Will send msgtype: m.fluffychat.whisper) The message text will be very small
-*   `/roar` (Will send msgtype: m.fluffychat.roar) The message text will be very large, bold and in capital letters
-*   `/shrug` Puts ¯\\(ツ)/¯ at the start of the message
+*   <code>/me</code> (Will send msgtype: m.emote) Displays an action.
+*   <code>/whisper</code> (Will send msgtype: m.fluffychat.whisper) The message text will be very small
+*   <code>/roar</code> (Will send msgtype: m.fluffychat.roar) The message text will be very large, bold and in capital letters
+*   <code>/shrug</code> Puts ¯\\(ツ)/¯ at the start of the message
 
 ## Chat settings<a id="3"/>
 
@@ -125,7 +125,7 @@ Chat aliases are public chat addresses which can be used to join a chat. You nee
 #### How can I send animated stickers with Giphy?<a id="3.6"/>
 
 1.  Start a new chat with [@neb\_giphy:​matrix.org](fluffychat://@neb_giphy:​matrix.org).
-2.  Search for gifs by typing: '!giphy KEYWORD'
+2.  Search for gifs by typing: <code>!giphy KEYWORD</code>
 3.  Forward the sticker by swiping the sticker message to the left and click on the ">" button.
 
 ## Bridge to other chat systems<a id="4"/>
@@ -137,7 +137,7 @@ Matrix is an open standard for interoperable, decentralised, real-time communica
 #### How can I enter a XMPP multi-user chat?<a id="4.2"/>
 
 The easiest way currently is to use the bridge on matrix.org.  
-Every XMPP multi-user chat has a Jabber identifier (JID) with the format: `chatname@chat.server.abc`  
+Every XMPP multi-user chat has a Jabber identifier (JID) with the format: <code>chatname@chat.server.abc</code> 
 The chatname is the **local** part and the chat.server.abc is the **server** part. You can enter this chat by entering the Matrix public room: `#_xmpp_server_local:matrix.org` ([How can I join a public chat?](#2-2))  
 For the given example this would be: `#_xmpp_chat.server.abc_chatname:matrix.org`
 
