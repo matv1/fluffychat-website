@@ -1,9 +1,12 @@
 # fluffychat-website
-The Repository for the jekyll source files for the FluffyChat Website.
+The FluffyChat website including the FAQ is now available in english, german and spanish. If you would like to help with translations, you can check out this repo here: https://github.com/ChristianPauly/fluffychat-website or just send me a translated version of these two files:
 
-Feel free to send translations. :)
+https://github.com/ChristianPauly/fluffychat-website/blob/master/_i18n/en/faq.md
+https://github.com/ChristianPauly/fluffychat-website/blob/master/_i18n/template.yml
 
-### Translation tutorial:
+or:
+
+### Translation tutorial using github:
 1. Fork this repo
 2. Go to the "_i18n"-directory
 3. Copy en.yml and /en to your language (e.g. to kl.yml and /kl)
