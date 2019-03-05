@@ -1,4 +1,4 @@
-languages: [ "template", "en", "de", "es"]
+languages: [ "template", "en", "de", "es", "nl" ]
 exclude_from_localizations: ["assets"]
 exclude: [ "README.md", "LICENSE"]
 assets: "https://christianpauly.github.io/fluffychat/assets"
